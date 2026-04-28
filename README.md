@@ -1,16 +1,88 @@
-# React + Vite
+# 🎨 Streak Zero — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface do usuário da aplicação **Streak Zero**, um habit tracker com sistema de streak diário.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Demo
 
-## React Compiler
+👉 https://streak-zero.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 📋 Listar hábitos
+* ➕ Criar novos hábitos
+* 🔥 Visualizar streak atual
+* ✅ Marcar hábito como concluído
+* 🚫 Bloqueio de múltiplas conclusões no mesmo dia
+* ⚡ Atualização em tempo real via API
+
+---
+
+## 🧱 Tecnologias
+
+* React
+* CSS (custom)
+* Fetch API
+
+---
+
+## 🔗 Integração com API
+
+A aplicação consome a API hospedada no backend:
+
+```id="p91xka"
+https://streak-zero-backend.onrender.com/
+```
+
+---
+
+## 📁 Estrutura
+
+```id="t1zv5o"
+src/
+  components/
+  config/
+  App.jsx
+```
+
+---
+
+## ⚙️ Rodando localmente
+
+```id="u7p3lm"
+npm install
+npm run dev
+```
+
+---
+
+## ⚠️ Configuração
+
+Defina a URL da API em:
+
+```id="k2q9zd"
+src/config/api.js
+```
+
+---
+
+## 📸 Screenshots
+
+![Home](./src/screenshots/home.png)
+
+---
+
+## 🚀 Deploy
+
+* Vercel
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Sandoval Melo
+
+---
